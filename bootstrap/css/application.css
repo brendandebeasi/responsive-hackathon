@@ -1,0 +1,57 @@
+
+
+/* Large desktop */
+@media (min-width: 1200px) {
+    #container {
+        max-width: 1400px;
+        margin: auto;
+    }
+    .container, .navbar-static-top .container {
+        width: auto;
+        max-width: 1400px;
+    }
+}
+
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+
+}
+
+/* Landscape phones and down */
+@media (max-width: 480px) {
+
+}
+
+html, body {
+    position: relative;
+}
+#desktopSearch {
+    float: right;
+}
+.navbar .btn-navbar {
+    float: left;
+}
+.row-fluid div {
+}
+.article {
+    margin-bottom: 10px;
+}
+.article p {
+    padding-right: 15px;
+}
+.article img {
+    float: left;
+    margin-right: 10px;
+    width: 20%;
+}
+.clear {
+    clear: both;
+}
+.navbar-static-top .container {
+    width: 100% !important;
+}

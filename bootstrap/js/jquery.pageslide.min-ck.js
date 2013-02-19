@@ -1,0 +1,10 @@
+/*
+ * jQuery pageSlide
+ * Version 2.0
+ * http://srobbin.com/jquery-pageslide/
+ *
+ * jQuery Javascript plugin which slides a webpage over to reveal an additional interaction pane.
+ *
+ * Copyright (c) 2011 Scott Robbin (srobbin.com)
+ * Dual licensed under the MIT and GPL licenses.
+ */(function(e){function s(t,r){if(t.indexOf("#")===0)e(t).clone(!0).appendTo(n.empty()).show();else{if(r){var i=e("<iframe />").attr({src:t,frameborder:0,hspace:0}).css({width:"100%",height:"100%"});n.html(i)}else n.load(t);n.data("localEl",!1)}}function o(i,s){var o=n.outerWidth(!0),u={},a={};if(n.is(":visible")||r)return;r=!0;switch(i){case"left":n.css({left:"auto",right:"-"+o+"px"});u.left="-="+o;a.right="+="+o;break;default:n.css({left:"-"+o+"px",right:"auto"});u.left="+="+o;a.left="+="+o}t.animate(u,s);n.show().animate(a,s,function(){r=!1;e("#container").css("opacity",".25")})}var t=e("body"),n=e("#pageslide"),r=!1,i;n.length==0&&(n=e("<div />").attr("id","pageslide").css("display","none").appendTo(e("body")));e.fn.pageslide=function(t){var r=this;r.click(function(r){var s=e(this),o=e.extend({href:s.attr("href")},t);r.preventDefault();r.stopPropagation();if(n.is(":visible")&&s[0]==i)e.pageslide.close();else{e.pageslide(o);i=s[0]}})};e.fn.pageslide.defaults={speed:200,direction:"right",modal:!1,iframe:!0,href:null};e.pageslide=function(t){var r=e.extend({},e.fn.pageslide.defaults,t);if(n.is(":visible")&&n.data("direction")!=r.direction)e.pageslide.close(function(){s(r.href,r.iframe);o(r.direction,r.speed)});else{s(r.href,r.iframe);n.is(":hidden")&&o(r.direction,r.speed)}n.data(r)};e.pageslide.close=function(n){var i=e("#pageslide"),s=i.outerWidth(!0),o=i.data("speed"),u={},a={};if(i.is(":hidden")||r)return;r=!0;switch(i.data("direction")){case"left":u.left="+="+s;a.right="-="+s;break;default:u.left="-="+s;a.left="-="+s}i.animate(a,o);t.animate(u,o,function(){i.hide();r=!1;e("#container").css("opacity","1");typeof n!="undefined"&&n()})};n.click(function(e){e.stopPropagation()});e(document).bind("click keyup",function(t){if(t.type=="keyup"&&t.keyCode!=27)return;n.is(":visible")&&!n.data("modal")&&e.pageslide.close()})})(jQuery);

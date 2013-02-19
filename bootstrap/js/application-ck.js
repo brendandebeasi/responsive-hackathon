@@ -1,0 +1,1 @@
+$(document).ready(function(){$("#slideToggle").pageslide({direction:"right",modal:!0});$("body").click(function(){$.pageslide.close()})});
