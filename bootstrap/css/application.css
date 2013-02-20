@@ -32,7 +32,9 @@
 
 /* Landscape phone to portrait tablet */
 @media (max-width: 767px) {
-
+    body{
+        background: black !important;
+    }
     .stallions a.brand{
         height: 60px !important;
     }
@@ -42,6 +44,7 @@
 
 /* Landscape phones and down */
 @media (max-width: 480px) {
+    
     .stallions .navbar .container{
         text-align: center;
     }
