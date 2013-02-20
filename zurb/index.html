@@ -12,12 +12,11 @@
 	<title>Welcome to Club Sites Mobile Platform!</title>
 
 	<!-- Included CSS Files -->
-  <link rel="stylesheet" href="stylesheets/app.css">
-  <link rel="stylesheet" href="stylesheets/offcanvas.css">
-  <link rel="stylesheet" href="stylesheets/foundation-overrides.css">
+  <link rel="stylesheet" href="stylesheets/app.css"/>
+  <link rel="stylesheet" href="stylesheets/offcanvas.css"/>
+  <link rel="stylesheet" href="stylesheets/foundation-overrides.css"/>
 
   <script src="javascripts/foundation/modernizr.foundation.js"></script>
-
 </head>
 
   <body id="page" class="off-canvas hide-extras">
@@ -34,6 +33,7 @@
 				<p class="small-nav-button show-for-small">
 					<a class="sidebarButton" href="#sidebar" ><img src="images/nfl/small-menu.png" /></a>
 				</p>
+				<p class="logo"><img src="../bootstrap/img/logo.png" /></p>				
 				<h1 id="site-title"><a href="http://zurb.com/playground/">STALLIONS</a></h1>
 				<nav id="tablet-menu" role="navigation" class="show-for-medium">
 					<ul class="nav-bar">
@@ -128,6 +128,7 @@
 					<img data-caption="#htmlCaption2" src="http://prod.images.redskins.clubs.nflcdn.com/image-web/NFL/CDA/data/deployed/prod/REDSKINS/assets/images/imported/WAS/photos/clubimages/2013/01-January/tempAP528043754971--nfl_mezz_1280_1024.jpg" />
 					<img data-caption="#htmlCaption3" src="http://prod.images.redskins.clubs.nflcdn.com/image-web/NFL/CDA/data/deployed/prod/REDSKINS/assets/images/imported/WAS/photos/clubimages/2013/01-January/tempAP385889182731--nfl_mezz_1280_1024.jpg" />
 				</div>
+				<iframe id="schedule-iframe" width="100%" height="400" src="http://test-a.www.packers.clubs.nfl.com/cda-web/schedule-module.htm?type=HD&showNextGame=true&numberOfGamesToDisplay=16&view=singlePageView&vv=list&previewMode=true" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
 			</div>
 			<div class="three columns padding">
 				<div class="module-container">
@@ -455,11 +456,14 @@
   		</section>
   		<section id="sidebar" role="complementary">
 				<nav id="sideMenu" role="navigation">
+				<div class="row collapse show-for-small skullwrap">
+					<img class="skull" src="http://i8.glitter-graphics.org/pub/1502/1502838h01b03un86.gif" />
+				</div>
 				<div class="row collapse show-for-small">
 					<div class="ten mobile-three columns">
 						<input type="text">
 					</div>
-					<div class="two mobile-one columns">
+					<div class="two mobile-one columns search">
 						<a class="button expand postfix">Search</a>
 					</div>
 				</div>				

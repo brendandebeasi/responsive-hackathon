@@ -1,5 +1,9 @@
 /* Special overrides that are separate from the foundation core */
 /* line 4, ../sass/foundation-overrides.scss */
+p{
+	margin-bottom: 0;
+}
+
 body.active
 {
 	background: black;
@@ -18,6 +22,12 @@ body.active
 	color: white;
 }
 
+.logo{
+	width: 86px;
+	float: left;
+	margin-right: 13px;	
+}
+
 #site-title {
   float: left;
   margin-right: 13px;
@@ -29,8 +39,10 @@ body.active
 #site-title {
   font-size: 200%;
   margin-top: 20px;
+ 
   
 }
+.logo{ margin-left:  20px;}
 
 }
 
@@ -116,13 +128,60 @@ h1, h2, h3, h4, h5, h6 {
 }
 #sideMainNav a
 {
-	color: #999;
+	color: black;
+	font-weight: bold;
+}
+#sideMainNav a:hover
+{
+	color: white;
 }
 
 #sideMainNav  li:hover
 {
-	background: #ccc;
+background: #e02c2c; /* Old browsers */
+/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIxJSIgc3RvcC1jb2xvcj0iI2UwMmMyYyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjUwJSIgc3RvcC1jb2xvcj0iI2VkODYyZCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNlMmVmODEiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+background: -moz-linear-gradient(top,  #e02c2c 1%, #ed862d 50%, #e2ef81 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,#e02c2c), color-stop(50%,#ed862d), color-stop(100%,#e2ef81)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #e02c2c 1%,#ed862d 50%,#e2ef81 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #e02c2c 1%,#ed862d 50%,#e2ef81 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #e02c2c 1%,#ed862d 50%,#e2ef81 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #e02c2c 1%,#ed862d 50%,#e2ef81 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e02c2c', endColorstr='#e2ef81',GradientType=0 ); /* IE6-8 */
 }
+
+
+#sidebar .search
+{
+background: #e02c2c; /* Old browsers */
+/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIxJSIgc3RvcC1jb2xvcj0iI2UwMmMyYyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjUwJSIgc3RvcC1jb2xvcj0iI2VkODYyZCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNlMmVmODEiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+background: -moz-linear-gradient(top,  #e02c2c 1%, #ed862d 50%, #e2ef81 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,#e02c2c), color-stop(50%,#ed862d), color-stop(100%,#e2ef81)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #e02c2c 1%,#ed862d 50%,#e2ef81 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #e02c2c 1%,#ed862d 50%,#e2ef81 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #e02c2c 1%,#ed862d 50%,#e2ef81 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #e02c2c 1%,#ed862d 50%,#e2ef81 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e02c2c', endColorstr='#e2ef81',GradientType=0 ); /* IE6-8 */
+
+}
+#sidebar .skull
+{
+	width: 40%;
+	
+}
+
+#sidebar .skullwrap
+{
+	text-align: center;
+}
+
+#sidebar .search a
+{
+	background: none;
+	border: none;
+}
+
 
 
 
