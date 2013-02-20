@@ -27,7 +27,7 @@
           <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/bootstrap/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="115" column="35" selection-start="5450" selection-end="5460" vertical-scroll-proportion="-17.36">
+                <state line="146" column="46" selection-start="8168" selection-end="8184" vertical-scroll-proportion="-12.24">
                   <folding>
                     <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                   </folding>
@@ -47,7 +47,7 @@
           <file leaf-file-name="application.js" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/bootstrap/js/application.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="6" column="142" selection-start="314" selection-end="314" vertical-scroll-proportion="0.15584415">
+                <state line="11" column="55" selection-start="532" selection-end="532" vertical-scroll-proportion="0.2857143">
                   <folding />
                 </state>
               </provider>
@@ -407,15 +407,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/bootstrap/js/jquery.pageslide.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="186" column="0" selection-start="6287" selection-end="6287" vertical-scroll-proportion="-18.5">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bootstrap/css/application.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="90" column="17" selection-start="1428" selection-end="1428" vertical-scroll-proportion="0.0">
@@ -423,13 +414,6 @@
             <marker date="1361395313000" expanded="true" signature="168:310" placeholder="{...}" />
             <marker date="1361395313000" expanded="true" signature="1992:2725" placeholder="{...}" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bootstrap/index-auto-hide.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="38" selection-start="1404" selection-end="1404" vertical-scroll-proportion="-19.84">
-          <folding />
         </state>
       </provider>
     </entry>
@@ -442,16 +426,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/bootstrap/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="115" column="35" selection-start="5450" selection-end="5460" vertical-scroll-proportion="-17.36">
+        <state line="146" column="46" selection-start="8168" selection-end="8184" vertical-scroll-proportion="-12.24">
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/bootstrap/js/jquery.pageslide.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="186" column="0" selection-start="6287" selection-end="6287" vertical-scroll-proportion="-18.5">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bootstrap/index-auto-hide.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="38" selection-start="1404" selection-end="1404" vertical-scroll-proportion="-19.84">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/bootstrap/js/application.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="142" selection-start="314" selection-end="314" vertical-scroll-proportion="0.15584415">
+        <state line="11" column="55" selection-start="532" selection-end="532" vertical-scroll-proportion="0.2857143">
           <folding />
         </state>
       </provider>

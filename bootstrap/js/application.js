@@ -6,9 +6,9 @@ $(document).ready(function() {
 
     //add support for swipes on the carousel. Found at: http://lazcreative.com/blog/how-to/how-to-adding-swipe-support-to-bootstraps-carousel/
     $("#myCarousel").swiperight(function() {
-        $("#myCarousel").carousel('prev');
+        $(this).find('.carousel-control.left').trigger('click');
     });
     $("#myCarousel").swipeleft(function() {
-        $("#myCarousel").carousel('next');
+        $(this).find('.carousel-control.right').trigger('click');
     });
 });
