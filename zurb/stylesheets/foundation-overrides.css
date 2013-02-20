@@ -1,0 +1,123 @@
+/* Special overrides that are separate from the foundation core */
+/* line 4, ../sass/foundation-overrides.scss */
+
+#site-title {
+  float: left;
+  margin-right: 13px;
+  margin-top: 14px;
+}
+
+@media only screen and (max-width: 1279px) and (min-width: 768px)
+{
+#site-title {
+  font-size: 200%;
+  margin-top: 20px;
+  
+}
+
+}
+
+@media only screen and (max-width: 768px)
+{
+
+#site-title {
+  font-size: 20px;
+  margin-top: 23px;
+  color: black;
+  
+}
+#site-title a{
+	color: black;
+}
+
+}
+
+
+/* line 9, ../sass/foundation-overrides.scss */
+.small-nav-button {
+  width: 32px;
+  margin-right: 13px;
+  margin-top: 18px;
+  float: left;
+}
+
+/* line 16, ../sass/foundation-overrides.scss */
+#tablet-menu, #tablet-menu ul, #tablet-menu li {
+  float: left;
+}
+#tablet-menu .nav-bar
+{
+	background-color: white;
+}
+#tablet-menu .nav-bar li
+{
+	border: none;
+	color: black;
+	
+}
+#tablet-menu .nav-bar li a
+{
+	color: black;
+	font-weight: bold;
+}
+#tablet-menu .nav-bar li a:hover
+{
+	border-bottom: solid 2px black;
+}
+#tablet-menu .nav-bar li:hover{
+	background: none;
+}
+
+
+.row {
+	width:1200px;
+}
+.row .row {
+    margin: 0;
+}
+.column, .columns {
+    padding: 0;
+}
+[role="main"] {
+    padding: 0;
+    width: 100%;
+}
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+}
+
+
+
+
+/* padding to compensate for the removal of the grid system gutters */
+.padding {
+	padding: 0 10px;
+}
+
+
+/* content css */
+.module-container ul {
+	list-style: none;
+	padding-top: 10px;
+}
+.title {
+	border-top: 1px solid #aaa;
+	border-bottom: 1px solid #aaa;
+	font-size: 18px;
+	font-weight: bold;
+}
+.module-container .itm-wrp-1 .headline {
+	border: none;
+	font-size: 14px;
+}
+.module-container .thumb {
+	float: left;
+	padding-right: 10px;
+}
+.details {
+	display: none;
+}
+
+.itm-wrp-1 {
+	display: inline-block;
+}
