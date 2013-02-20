@@ -1,5 +1,22 @@
 /* Special overrides that are separate from the foundation core */
 /* line 4, ../sass/foundation-overrides.scss */
+body.active
+{
+	background: black;
+	
+}
+.active [role="main"] .row
+{
+	opacity: 0.5;
+}
+.active [role="main"] {
+/*    margin-right: -50%;*/
+}
+
+.active #site-title a
+{
+	color: white;
+}
 
 #site-title {
   float: left;
@@ -84,6 +101,27 @@
 }
 h1, h2, h3, h4, h5, h6 {
 	margin: 0;
+}
+
+
+
+[role="complementary"]
+{
+	padding: 0;
+}
+#sideMainNav
+{
+	margin-top:0;
+	background: white;
+}
+#sideMainNav a
+{
+	color: #999;
+}
+
+#sideMainNav  li:hover
+{
+	background: #ccc;
 }
 
 
