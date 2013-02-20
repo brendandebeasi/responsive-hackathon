@@ -26,9 +26,15 @@
 @media (max-width: 480px) {
 
 }
+html {
 
+}
 html, body {
     position: relative;
+    background: #000000;
+}
+#container {
+    background: white;
 }
 #desktopSearch {
     float: right;
@@ -65,7 +71,7 @@ html, body {
 }
 #slideMenu ul li {
     height: 40px;
-    padding-left: 5px;
+    padding-left: 23px;
     line-height: 40px;
     border-bottom: 1px solid #1f1f1f;
     border-top: 1px solid #4d4d4d;
