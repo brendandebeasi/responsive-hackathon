@@ -128,7 +128,7 @@
 					<img data-caption="#htmlCaption2" src="http://prod.images.redskins.clubs.nflcdn.com/image-web/NFL/CDA/data/deployed/prod/REDSKINS/assets/images/imported/WAS/photos/clubimages/2013/01-January/tempAP528043754971--nfl_mezz_1280_1024.jpg" />
 					<img data-caption="#htmlCaption3" src="http://prod.images.redskins.clubs.nflcdn.com/image-web/NFL/CDA/data/deployed/prod/REDSKINS/assets/images/imported/WAS/photos/clubimages/2013/01-January/tempAP385889182731--nfl_mezz_1280_1024.jpg" />
 				</div>
-				<iframe id="schedule-iframe" width="100%" height="400" src="http://test-a.www.packers.clubs.nfl.com/cda-web/schedule-module.htm?type=HD&showNextGame=true&numberOfGamesToDisplay=16&view=singlePageView&vv=list&previewMode=true" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
+				<iframe id="schedule-iframe" width="100%" height="460" src="http://test-a.www.packers.clubs.nfl.com/cda-web/schedule-module.htm?type=HD&showNextGame=true&numberOfGamesToDisplay=16&view=singlePageView&vv=list&previewMode=true" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
 			</div>
 			<div class="three columns padding">
 				<div class="module-container">
@@ -280,6 +280,15 @@
 						</div>
 					  </li>
 					</ul>
+				</div>
+				<div class="">
+					<img width="300" height="250" border="0" class="img_ad" alt="" src="http://pagead2.googlesyndication.com/simgad/6849222109504510543">
+					<p><br/></p>
+				</div>
+				<div id="sliderRail">
+					<img data-caption="#htmlCaption4" src="http://prod.images.patriots.clubs.nflcdn.com/image-web/NFL/CDA/data/deployed/prod/PATRIOTS/assets/images/imported/NE/photos/clubimages/2013/02-February/tempDSP25644--nfl_mezz_1280_1024.JPG" />
+					<img data-caption="#htmlCaption5" src="http://prod.images.redskins.clubs.nflcdn.com/image-web/NFL/CDA/data/deployed/prod/REDSKINS/assets/images/imported/WAS/photos/clubimages/2013/01-January/tempAP528043754971--nfl_mezz_1280_1024.jpg" />
+					<img data-caption="#htmlCaption6" src="http://prod.images.redskins.clubs.nflcdn.com/image-web/NFL/CDA/data/deployed/prod/REDSKINS/assets/images/imported/WAS/photos/clubimages/2013/01-January/tempAP385889182731--nfl_mezz_1280_1024.jpg" />
 				</div>
 			</div>
 		</div>
@@ -515,11 +524,23 @@
 			bullets: true,
 			swipe: true
 		});
+		$('#sliderRail').orbit({
+			captions: true,       // do you want captions?
+			captionAnimation: 'fade',     // fade, slideOpen, none
+			captionAnimationSpeed: 700,   // if so how quickly should they animate in
+			directionalNav: true,
+			bullets: true,
+			swipe: true
+		});
 	});
 </script>
 <span class="orbit-caption" id="htmlCaption1"><strong>Dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</strong> I can haz <a href="#">links</a>, <em>style</em> or anything that is valid markup :)</span>
 <span class="orbit-caption" id="htmlCaption2"><strong>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</strong> I can haz <a href="#">links</a>, <em>style</em> or anything that is valid markup :)</span>
 <span class="orbit-caption" id="htmlCaption3"><strong>In the way, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</strong> I can haz <a href="#">links</a>, <em>style</em> or anything that is valid markup :)</span>
+
+<span class="orbit-caption" id="htmlCaption4"><strong>I can haz <a href="#">links</a>, <em>style</em> or anything that is valid markup :)</span>
+<span class="orbit-caption" id="htmlCaption5"><strong>I can haz <a href="#">links</a>, <em>style</em> or anything that is valid markup :)</span>
+<span class="orbit-caption" id="htmlCaption6"><strong>I can haz <a href="#">links</a>, <em>style</em> or anything that is valid markup :)</span>
 
 
 </body>
