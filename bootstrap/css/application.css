@@ -38,13 +38,16 @@
     .stallions a.brand{
         height: 60px !important;
     }
-
+    .navbar-fixed-top{
+        position: fixed;
+        margin: 0;
+    }
 
 }
 
 /* Landscape phones and down */
 @media (max-width: 480px) {
-    
+
     .stallions .navbar .container{
         text-align: center;
     }
