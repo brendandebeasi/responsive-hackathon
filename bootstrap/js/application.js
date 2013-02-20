@@ -4,10 +4,10 @@ $(document).ready(function() {
         $.pageslide.close();
     });
 
-	$(".carousel-vertical").carouFredSel({
-		direction: "up",
-		scroll: "linear",
-		width: "variable"
-	});
-
+    $("#myCarousel").swiperight(function() {
+        $("#myCarousel").carousel('prev');
+    });
+    $("#myCarousel").swipeleft(function() {
+        $("#myCarousel").carousel('next');
+    });
 });
