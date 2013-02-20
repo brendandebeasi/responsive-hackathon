@@ -56,6 +56,9 @@ html, body {
 .clear {
     clear: both;
 }
+.hidden {
+    display: none;
+}
 .navbar-static-top .container {
     width: 100% !important;
 }
