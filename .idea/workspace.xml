@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ccae1b2c-bb7c-44af-8b88-e6d3b1705906" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootstrap/js/application.js" afterPath="$PROJECT_DIR$/bootstrap/js/application.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index-assets/nfl-labs.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="responsive-hackathon.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -35,19 +37,19 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+          <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="43" column="12" selection-start="1649" selection-end="1649" vertical-scroll-proportion="-27.52">
+                <state line="42" column="43" selection-start="1080" selection-end="1080" vertical-scroll-proportion="0.893401">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="application.js" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="application.js" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/bootstrap/js/application.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="11" column="55" selection-start="532" selection-end="532" vertical-scroll-proportion="0.2857143">
+                <state line="13" column="0" selection-start="172" selection-end="551" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
@@ -76,10 +78,10 @@
           <file leaf-file-name="application.css" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/bootstrap/css/application.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="90" column="17" selection-start="1428" selection-end="1428" vertical-scroll-proportion="0.0">
+                <state line="93" column="17" selection-start="1486" selection-end="1486" vertical-scroll-proportion="0.0">
                   <folding>
-                    <marker date="1361395313000" expanded="true" signature="168:310" placeholder="{...}" />
-                    <marker date="1361395313000" expanded="true" signature="1992:2725" placeholder="{...}" />
+                    <marker date="1361396309000" expanded="true" signature="168:310" placeholder="{...}" />
+                    <marker date="1361396309000" expanded="true" signature="2050:2783" placeholder="{...}" />
                   </folding>
                 </state>
               </provider>
@@ -92,7 +94,7 @@
           <file leaf-file-name="application.css" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/bootstrap/css/application.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="168" column="1" selection-start="2725" selection-end="2725" vertical-scroll-proportion="1.4372019">
+                <state line="171" column="1" selection-start="2783" selection-end="2783" vertical-scroll-proportion="1.4372019">
                   <folding />
                 </state>
               </provider>
@@ -117,8 +119,8 @@
         <option value="$PROJECT_DIR$/bootstrap/css/application.css" />
         <option value="$PROJECT_DIR$/bootstrap/index-auto-hide.html" />
         <option value="$PROJECT_DIR$/bootstrap/index.html" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/bootstrap/js/application.js" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -409,26 +411,10 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/bootstrap/css/application.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="90" column="17" selection-start="1428" selection-end="1428" vertical-scroll-proportion="0.0">
+        <state line="93" column="17" selection-start="1486" selection-end="1486" vertical-scroll-proportion="0.0">
           <folding>
-            <marker date="1361395313000" expanded="true" signature="168:310" placeholder="{...}" />
-            <marker date="1361395313000" expanded="true" signature="1992:2725" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="12" selection-start="1649" selection-end="1649" vertical-scroll-proportion="-27.52">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bootstrap/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="146" column="46" selection-start="8168" selection-end="8184" vertical-scroll-proportion="-12.24">
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1361396309000" expanded="true" signature="168:310" placeholder="{...}" />
+            <marker date="1361396309000" expanded="true" signature="2050:2783" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -451,7 +437,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/bootstrap/js/application.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="55" selection-start="532" selection-end="532" vertical-scroll-proportion="0.2857143">
+        <state line="13" column="0" selection-start="172" selection-end="551" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bootstrap/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="146" column="46" selection-start="8168" selection-end="8184" vertical-scroll-proportion="-12.24">
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="43" selection-start="1080" selection-end="1080" vertical-scroll-proportion="0.893401">
           <folding />
         </state>
       </provider>
