@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ccae1b2c-bb7c-44af-8b88-e6d3b1705906" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index-assets/nfl-labs.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-    </list>
+    <list default="true" id="ccae1b2c-bb7c-44af-8b88-e6d3b1705906" name="Default" comment="" />
     <ignored path="responsive-hackathon.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -40,7 +36,7 @@
           <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="42" column="43" selection-start="1080" selection-end="1080" vertical-scroll-proportion="0.893401">
+                <state line="42" column="43" selection-start="1080" selection-end="1080" vertical-scroll-proportion="0.67681897">
                   <folding />
                 </state>
               </provider>
@@ -453,7 +449,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="43" selection-start="1080" selection-end="1080" vertical-scroll-proportion="0.893401">
+        <state line="42" column="43" selection-start="1080" selection-end="1080" vertical-scroll-proportion="0.67681897">
           <folding />
         </state>
       </provider>
