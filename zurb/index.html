@@ -122,11 +122,11 @@
         </div>
         <div class="row">
 
-			<div class="six columns">
+			<div class="nine columns">
 				<div id="slider">
-					<img src="http://prod.images.patriots.clubs.nflcdn.com/image-web/NFL/CDA/data/deployed/prod/PATRIOTS/assets/images/imported/NE/photos/clubimages/2013/02-February/tempDSP25644--nfl_mezz_1280_1024.JPG?width=600&height=455" />
-					<img src="http://prod.images.redskins.clubs.nflcdn.com/image-web/NFL/CDA/data/deployed/prod/REDSKINS/assets/images/imported/WAS/photos/clubimages/2013/01-January/tempAP528043754971--nfl_mezz_1280_1024.jpg?width=600&height=455" />
-					<img src="http://prod.images.redskins.clubs.nflcdn.com/image-web/NFL/CDA/data/deployed/prod/REDSKINS/assets/images/imported/WAS/photos/clubimages/2013/01-January/tempAP385889182731--nfl_mezz_1280_1024.jpg?width=600&height=455" />
+					<img data-caption="#htmlCaption1" src="http://prod.images.patriots.clubs.nflcdn.com/image-web/NFL/CDA/data/deployed/prod/PATRIOTS/assets/images/imported/NE/photos/clubimages/2013/02-February/tempDSP25644--nfl_mezz_1280_1024.JPG" />
+					<img data-caption="#htmlCaption2" src="http://prod.images.redskins.clubs.nflcdn.com/image-web/NFL/CDA/data/deployed/prod/REDSKINS/assets/images/imported/WAS/photos/clubimages/2013/01-January/tempAP528043754971--nfl_mezz_1280_1024.jpg" />
+					<img data-caption="#htmlCaption3" src="http://prod.images.redskins.clubs.nflcdn.com/image-web/NFL/CDA/data/deployed/prod/REDSKINS/assets/images/imported/WAS/photos/clubimages/2013/01-January/tempAP385889182731--nfl_mezz_1280_1024.jpg" />
 				</div>
 			</div>
 			<div class="three columns padding">
@@ -182,7 +182,7 @@
 						  </div>
 						</div>
 					  </li>
-					  <li class="loop-odd loop-last">
+					  <li class="loop-odd">
 						<div class="itm-wrp-1">
 						  <div class="thumb">
 							<a title="Brady 1/18: They've had a great team for long time" href=
@@ -206,16 +206,7 @@
 						  </div>
 						</div>
 					  </li>
-					</ul>
-				</div>
-			</div>
-
-			<div class="three columns padding">
-				<div class="module-container">
-					<div class="show-for-small title">Videos</div>
-					<div class="hide-for-small title">Videos</div>
-					<ul>
-					  <li class="loop-first loop-odd">
+					  <li class="loop-even">
 						<div class="itm-wrp-1">
 						  <div class="thumb">
 							<a title="Patriots Today - Ready... set... Spikes" href=
@@ -239,7 +230,7 @@
 						  </div>
 						</div>
 					  </li>
-					  <li class="loop-even">
+					  <li class="loop-odd">
 						<div class="itm-wrp-1">
 						  <div class="thumb">
 							<a title="Patriots Today - Students honor Kraft family" href=
@@ -263,7 +254,7 @@
 						  </div>
 						</div>
 					  </li>
-					  <li class="loop-odd loop-last">
+					  <li class="loop-even loop-last">
 						<div class="itm-wrp-1">
 						  <div class="thumb">
 							<a title="Brady 1/18: They've had a great team for long time" href=
@@ -293,8 +284,9 @@
 		</div>
 
 
+
 	        <div class="row">
-      		<div class="six columns">
+      		<div class="six columns padding">
 				<div class="module-container">
 					<div class="show-for-small title">Audios</div>
 					<div class="hide-for-small title">Audios</div>
@@ -374,7 +366,7 @@
 					</ul>
 				</div>  
 			</div>
-      		<div class="three columns">
+      		<div class="three columns padding">
 				<div class="module-container">
 					<div class="show-for-small title">Audios</div>
 					<div class="hide-for-small title">Audios</div>
@@ -511,9 +503,19 @@
   <script src="javascripts/foundation/app.js"></script>
 <script type="text/javascript">
 	$(window).load(function() {
-		$('#slider').orbit();
+		$('#slider').orbit({
+			captions: true,       // do you want captions?
+			captionAnimation: 'fade',     // fade, slideOpen, none
+			captionAnimationSpeed: 700,   // if so how quickly should they animate in
+			directionalNav: true,
+			bullets: true
+		});
 	});
 </script>
+<span class="orbit-caption" id="htmlCaption1"><strong>Dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</strong> I can haz <a href="#">links</a>, <em>style</em> or anything that is valid markup :)</span>
+<span class="orbit-caption" id="htmlCaption2"><strong>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</strong> I can haz <a href="#">links</a>, <em>style</em> or anything that is valid markup :)</span>
+<span class="orbit-caption" id="htmlCaption3"><strong>In the way, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</strong> I can haz <a href="#">links</a>, <em>style</em> or anything that is valid markup :)</span>
+
 
 </body>
 </html>

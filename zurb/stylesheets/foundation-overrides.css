@@ -159,3 +159,29 @@ h1, h2, h3, h4, h5, h6 {
 .itm-wrp-1 {
 	display: inline-block;
 }
+
+
+/* CAPTIONS
+   ================================================== */
+
+.orbit-caption {
+    display: none }
+
+.orbit-wrapper .orbit-caption {
+    background: #000;
+    background: rgba(0,0,0,.6);
+    z-index: 1000;
+    color: #fff;
+    padding: 14px 10px 7px 10px;
+    font-size: 16px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    text-align: center
+	}
+/* BULLET NAV
+   ================================================== */
+
+ul.orbit-bullets li {
+    background: url("http://www.zurb.com/playground/playground/jquery-image-slider-plugin/orbit/bullets.jpg?1361302849") no-repeat scroll 4px 0 transparent;
+}
