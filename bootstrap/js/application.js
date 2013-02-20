@@ -4,10 +4,11 @@ $(document).ready(function() {
         $.pageslide.close();
     });
 
-	$(".carousel-vertical").carouFredSel({
-		direction: "up",
-		scroll: "linear",
-		width: "variable"
-	});
-
+    //add support for swipes on the carousel. Found at: http://lazcreative.com/blog/how-to/how-to-adding-swipe-support-to-bootstraps-carousel/
+    $("#myCarousel").swiperight(function() {
+        $(this).find('.carousel-control.left').trigger('click');
+    });
+    $("#myCarousel").swipeleft(function() {
+        $(this).find('.carousel-control.right').trigger('click');
+    });
 });
