@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ccae1b2c-bb7c-44af-8b88-e6d3b1705906" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootstrap/js/application.js" afterPath="$PROJECT_DIR$/bootstrap/js/application.js" />
     </list>
     <ignored path="responsive-hackathon.iws" />
@@ -48,7 +47,7 @@
           <file leaf-file-name="application.js" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/bootstrap/js/application.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="10" column="22" selection-start="334" selection-end="334" vertical-scroll-proportion="0.25437203">
+                <state line="6" column="142" selection-start="314" selection-end="314" vertical-scroll-proportion="0.15584415">
                   <folding />
                 </state>
               </provider>
@@ -452,7 +451,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/bootstrap/js/application.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="22" selection-start="334" selection-end="334" vertical-scroll-proportion="0.25437203">
+        <state line="6" column="142" selection-start="314" selection-end="314" vertical-scroll-proportion="0.15584415">
           <folding />
         </state>
       </provider>
