@@ -112,7 +112,7 @@
     </header>
     <div id="container">
         <div class="row-fluid">
-            <div class="span8">
+            <div class="span8" id="mainCarousel">
                 <div id="myCarousel" class="carousel slide">
                     <ol class="carousel-indicators">
                         <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -148,8 +148,8 @@
                     <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
                 </div>
             </div>
-            <div class="span4">
-                <h4 class="text-center">News & Media</h4>
+            <div id="newsMedia" class="span4">
+                <h4 class="text-center alwaysShow">News & Media</h4>
                 <div class="article">
                     <img class="img-polaroid" src="http://cl.ly/image/1W0Z2Q3v1w2K/Screen%20Shot%202013-02-19%20at%202.29.20%20PM.png" />
                     <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>
@@ -208,6 +208,18 @@
 <script src="components/bootstrap/js/bootstrap-carousel.js"></script>
 <script src="components/bootstrap/js/bootstrap-typeahead.js"></script>
 <script src="components/bootstrap/js/bootstrap-affix.js"></script>
+<script src="https://raw.github.com/brendandebeasi/jHeightMaster/master/jHeightMaster.js"></script>
+<script>
+    var delay = (function(){var timer = 0;return function(callback, ms){clearTimeout (timer);timer = setTimeout(callback, ms);};})();
+    $(document).ready(function() {
+        $(window).resize(function() {
+            delay(function(){
+                jHeightMaster($('#myCarousel'),$('#newsMedia'),'hidden');
+            }, 125);
+        });
+        $(window).trigger('resize');
+    });
+</script>
 <script src="js/application.js"></script>
 <script src="js/jquery.pageslide.min.js"></script>
 

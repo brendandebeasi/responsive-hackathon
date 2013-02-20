@@ -1,0 +1,187 @@
+/* Special overrides that are separate from the foundation core */
+/* line 4, ../sass/foundation-overrides.scss */
+body.active
+{
+	background: black;
+	
+}
+.active [role="main"] .row
+{
+	opacity: 0.5;
+}
+.active [role="main"] {
+/*    margin-right: -50%;*/
+}
+
+.active #site-title a
+{
+	color: white;
+}
+
+#site-title {
+  float: left;
+  margin-right: 13px;
+  margin-top: 14px;
+}
+
+@media only screen and (max-width: 1279px) and (min-width: 768px)
+{
+#site-title {
+  font-size: 200%;
+  margin-top: 20px;
+  
+}
+
+}
+
+@media only screen and (max-width: 768px)
+{
+
+#site-title {
+  font-size: 20px;
+  margin-top: 23px;
+  color: black;
+  
+}
+#site-title a{
+	color: black;
+}
+
+}
+
+
+/* line 9, ../sass/foundation-overrides.scss */
+.small-nav-button {
+  width: 32px;
+  margin-right: 13px;
+  margin-top: 18px;
+  float: left;
+}
+
+/* line 16, ../sass/foundation-overrides.scss */
+#tablet-menu, #tablet-menu ul, #tablet-menu li {
+  float: left;
+}
+#tablet-menu .nav-bar
+{
+	background-color: white;
+}
+#tablet-menu .nav-bar li
+{
+	border: none;
+	color: black;
+	
+}
+#tablet-menu .nav-bar li a
+{
+	color: black;
+	font-weight: bold;
+}
+#tablet-menu .nav-bar li a:hover
+{
+	border-bottom: solid 2px black;
+}
+#tablet-menu .nav-bar li:hover{
+	background: none;
+}
+
+
+.row {
+	width:1200px;
+}
+.row .row {
+    margin: 0;
+}
+.column, .columns {
+    padding: 0;
+}
+[role="main"] {
+    padding: 0;
+    width: 100%;
+}
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+}
+
+
+
+[role="complementary"]
+{
+	padding: 0;
+}
+#sideMainNav
+{
+	margin-top:0;
+	background: white;
+}
+#sideMainNav a
+{
+	color: #999;
+}
+
+#sideMainNav  li:hover
+{
+	background: #ccc;
+}
+
+
+
+
+/* padding to compensate for the removal of the grid system gutters */
+.padding {
+	padding: 0 10px;
+}
+
+
+/* content css */
+.module-container ul {
+	list-style: none;
+	padding-top: 10px;
+}
+.title {
+	border-top: 1px solid #aaa;
+	border-bottom: 1px solid #aaa;
+	font-size: 18px;
+	font-weight: bold;
+}
+.module-container .itm-wrp-1 .headline {
+	border: none;
+	font-size: 14px;
+}
+.module-container .thumb {
+	float: left;
+	padding-right: 10px;
+}
+.details {
+	display: none;
+}
+
+.itm-wrp-1 {
+	display: inline-block;
+}
+
+
+/* CAPTIONS
+   ================================================== */
+
+.orbit-caption {
+    display: none }
+
+.orbit-wrapper .orbit-caption {
+    background: #000;
+    background: rgba(0,0,0,.6);
+    z-index: 1000;
+    color: #fff;
+    padding: 14px 10px 7px 10px;
+    font-size: 16px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    text-align: center
+	}
+/* BULLET NAV
+   ================================================== */
+
+ul.orbit-bullets li {
+    background: url("http://www.zurb.com/playground/playground/jquery-image-slider-plugin/orbit/bullets.jpg?1361302849") no-repeat scroll 4px 0 transparent;
+}
