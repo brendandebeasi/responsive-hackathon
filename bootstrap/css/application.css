@@ -1,29 +1,60 @@
 
 
 /* Large desktop */
-@media (min-width: 1200px) {
+@media (min-width: 980px) {
     #container {
-        max-width: 1400px;
+        max-width: 1200px;
         margin: auto;
     }
     .container, .navbar-static-top .container {
         width: auto;
-        max-width: 1400px;
+        max-width: 1200px;
+    }
+
+    .stallions a.brand{
+        height: 100px !important;
+        width: 107px;
     }
 }
 
 /* Portrait tablet to landscape and desktop */
-@media (min-width: 768px) and (max-width: 979px) {
+@media (max-width: 979px) {
+
+    .stallions a.brand{
+        height: 60px !important;
+    }
+
+    .stallions ul.nav li{
+        line-height: 22px !important;
+    }
 
 }
 
 /* Landscape phone to portrait tablet */
 @media (max-width: 767px) {
 
+    .stallions a.brand{
+        height: 60px !important;
+    }
+
+
 }
 
 /* Landscape phones and down */
 @media (max-width: 480px) {
+    .stallions .navbar .container{
+        text-align: center;
+    }
+    .stallions a.brand{
+        float: none !important;
+        height: 50px !important;
+        margin: 0 auto !important;
+        padding: 0 50px 0 0 !important;
+    }
+    .stallions .navbar-inner{
+        min-height: 20px;
+    }
+
 
 }
 html {
@@ -94,4 +125,45 @@ html, body {
     line-height: inherit;
     padding-top: 10px;
     padding-left: 0px;
+}
+
+.carousel.fullwidth{
+    margin-bottom: 0;
+}
+
+/**** non-override stuff ***/
+
+.stallions a.brand{
+    display: inline-block;
+    height: 100px;
+    margin: -12px 10px -40px 0;
+    font-weight: bold !important;
+    font-style: italic;
+}
+
+.stallions a.brand span{
+    vertical-align: top;
+    line-height: 74px;
+    padding-left: 10px;
+}
+
+.stallions .navbar .form-search{
+    margin-top: 14px;
+}
+
+.stallions a.brand img{
+    height: 100%;
+    max-width: auto;
+}
+
+.stallions ul.nav li{
+    line-height: 50px;
+}
+
+body.stallions{
+    background: black url(../img/bg.jpg) repeat-x;
+}
+
+.stallions .carousel-inner > .item{
+    max-height: 570px;
 }
