@@ -181,6 +181,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e02c2c', end
 #sidebar .skullwrap
 {
 	text-align: center;
+	background: black;
 }
 
 #sidebar .search a
@@ -250,4 +251,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e02c2c', end
 
 ul.orbit-bullets li {
     background: url("http://www.zurb.com/playground/playground/jquery-image-slider-plugin/orbit/bullets.jpg?1361302849") no-repeat scroll 4px 0 transparent;
+}
+
+#schedule-iframe
+{
+	margin-bottom: 20px;
 }
