@@ -57,6 +57,7 @@ body.active
 {
 
 #site-title {
+  display: none;
   font-size: 20px;
   margin-top: 23px;
   color: black;
@@ -70,11 +71,11 @@ body.active
 
 
 /* line 9, ../sass/foundation-overrides.scss */
-.small-nav-button {
-  width: 32px;
-  margin-right: 13px;
-  margin-top: 18px;
+.sidebarButton {
+width: 32px;
   float: left;
+  padding: 0 !important;
+  margin: 2px 13px 10px
 }
 
 /* line 16, ../sass/foundation-overrides.scss */
@@ -257,3 +258,4 @@ ul.orbit-bullets li {
 {
 	margin-bottom: 20px;
 }
+
