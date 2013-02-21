@@ -68,7 +68,13 @@ body.active
 }
 
 }
-
+.top-bar .horse
+{
+ float: left;
+    margin-right: 10px;
+    margin-top: 3px !important;
+    width: 44px;
+}
 
 /* line 9, ../sass/foundation-overrides.scss */
 .sidebarButton {
