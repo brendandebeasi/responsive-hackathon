@@ -4,6 +4,15 @@ $(document).ready(function() {
         $.pageslide.close();
     });
 
+    $(document).ready(function() {
+	   $("#myCarousel").swiperight(function() {
+	      $("#myCarousel").carousel('prev');
+	    });
+	   $("#myCarousel").swipeleft(function() {
+	      $("#myCarousel").carousel('next');
+	   });
+	});
+
     // grab the initial top offset of the navigation 
 	var sticky_navigation_offset_top = $('#sticky_navigation').position().top;
 	
