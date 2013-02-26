@@ -484,12 +484,13 @@
 </script>
 <script>
     var delay = (function(){var timer = 0;return function(callback, ms){clearTimeout (timer);timer = setTimeout(callback, ms);};})();
+    var delay2 = (function(){var timer2 = 0;return function(callback, ms){clearTimeout (timer2);timer2 = setTimeout(callback, ms);};})();
     $(document).ready(function() {
         $(window).resize(function() {
             delay(function(){
                 jHeightMaster($('.orbit-wrapper'),$('#top-videos ul'),'hidden');
             }, 125);
-            delay(function(){
+            delay2(function(){
                 jHeightMaster($('.footer-img'),$('.transactions tbody'),'hidden');
             }, 125);
         });
