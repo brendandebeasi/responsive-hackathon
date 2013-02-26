@@ -17,6 +17,9 @@
   <link rel="stylesheet" href="stylesheets/foundation-overrides.css"/>
 
   <script src="javascripts/foundation/modernizr.foundation.js"></script>
+  <script src="https://raw.github.com/brendandebeasi/jHeightMaster/master/jHeightMaster.js"></script>
+  
+  
 </head>
 
   <body id="page" class="off-canvas hide-extras">
@@ -142,7 +145,7 @@
 				</div>
 			</div>
 			<div class="four columns padding">
-				<div class="module-container">
+				<div id="top-videos" class="module-container">
 					<div class="show-for-small title">Videos</div>
 					<div class="hide-for-small title">Videos</div>
 					<ul>
@@ -607,6 +610,18 @@
 		});
 	});
 </script>
+<script>
+    var delay = (function(){var timer = 0;return function(callback, ms){clearTimeout (timer);timer = setTimeout(callback, ms);};})();
+    $(document).ready(function() {
+        $(window).resize(function() {
+            delay(function(){
+                jHeightMaster($('.orbit-wrapper'),$('#top-videos ul'),'hidden');
+            }, 125);
+        });
+        $(window).trigger('resize');
+    });
+</script>
+
 <span class="orbit-caption" id="htmlCaption1"><strong>Dapibus ac facilisis in, egestas eget quam.</strong> I can haz <a href="#">links</a>, <em>style</em> or anything that is valid markup :)</span>
 <span class="orbit-caption" id="htmlCaption2"><strong>Cras justo odio, dapibus ac facilisis in, egestas eget quam.</strong> I can haz <a href="#">links</a>, <em>style</em> or anything that is valid markup :)</span>
 <span class="orbit-caption" id="htmlCaption3"><strong>In the way, egestas eget quam.</strong> I can haz <a href="#">links</a>, <em>style</em> or anything that is valid markup :)</span>
