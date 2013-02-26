@@ -398,7 +398,7 @@
 		  </div>
       		<div class="four columns">
 				
-				<img border="0" class="body-img-size" alt="" src="images/nfl/player-square.jpg">
+				<img border="0" class="body-img-size footer-img" alt="" src="images/nfl/player-square.jpg">
 				
 				
 				
@@ -406,7 +406,7 @@
       		</div>
       		<div class="four columns">
 				
-				<img border="0" class="body-img-size" alt="" src="images/nfl/juke-square.jpg">
+				<img border="0" class="body-img-size footer-img" alt="" src="images/nfl/juke-square.jpg">
 				
 				
 				
@@ -488,6 +488,9 @@
         $(window).resize(function() {
             delay(function(){
                 jHeightMaster($('.orbit-wrapper'),$('#top-videos ul'),'hidden');
+            }, 125);
+            delay(function(){
+                jHeightMaster($('.footer-img'),$('.transactions tbody'),'hidden');
             }, 125);
         });
         $(window).trigger('resize');
