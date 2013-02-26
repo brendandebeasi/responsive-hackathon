@@ -214,3 +214,7 @@ body.stallions{
     margin-bottom: 10px;
     border-bottom: 1px solid #d3d3d3;
 }
+
+.stallions #accordion.thumbnail{
+    max-height: 600px;
+}
