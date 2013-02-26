@@ -28,6 +28,10 @@
         line-height: 22px !important;
     }
 
+    .navbar-fixed-top{
+        position: fixed !important;
+    }
+
 }
 
 /* Landscape phone to portrait tablet */
@@ -172,4 +176,19 @@ body.stallions{
 
 .stallions .carousel-inner > .item{
     max-height: 570px;
+}
+
+.content-container{
+    height: 300px;
+    border: 1px solid #ccc;
+    overflow: hidden;
+}
+
+.content-container img{
+    max-height: 150px;
+    float: left;
+}
+
+#slideMenu input{
+    max-width: 180px;
 }
