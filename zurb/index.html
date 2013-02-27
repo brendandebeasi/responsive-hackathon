@@ -17,7 +17,6 @@
   <link rel="stylesheet" href="stylesheets/foundation-overrides.css"/>
 
   <script src="javascripts/foundation/modernizr.foundation.js"></script>
-  <script src="https://raw.github.com/brendandebeasi/jHeightMaster/master/jHeightMaster.js"></script>
   
   
 </head>
@@ -245,7 +244,7 @@
 						  </div>
 						</div>
 					  </li>
-					  <li class="loop-odd">
+					  <li class="loop-odd last-odd">
 						<div class="itm-wrp-1">
 						  <div class="thumb">
 							<a title="Patriots Today - Students honor Kraft family" href=
@@ -369,27 +368,27 @@
 						<td>02/15/2013</td>
 						<td>Waived WR <nobr><span class="player-card-tooltip"><span>Titus Young</span></span></nobr></td>
 					</tr>
-					<tr class="loop-odd">
+					<tr class="loop-odd third-out">
 						<td>02/14/2013</td>
 						<td>Free agent signing WR <nobr><span class="player-card-tooltip"><span>James Shaw</span></span></nobr></td>
 					</tr>
-					<tr class="loop-even">
+					<tr class="loop-even third-out">
 						<td>02/07/2013</td>
 						<td>Free agent signing DT <nobr><span class="player-card-tooltip"><span>Colin Cole</span></span></nobr></td>
 					</tr>
-					<tr class="loop-odd">
+					<tr class="loop-odd second-out">
 						<td>02/14/2013</td>
 						<td>Free agent signing WR <nobr><span class="player-card-tooltip"><span>James Shaw</span></span></nobr></td>
 					</tr>
-					<tr class="loop-even">
+					<tr class="loop-even second-out	">
 						<td>02/07/2013</td>
 						<td>Free agent signing DT <nobr><span class="player-card-tooltip"><span>Colin Cole</span></span></nobr></td>
 					</tr>
-					<tr class="loop-odd">
+					<tr class="loop-odd first-out">
 						<td>02/14/2013</td>
 						<td>Free agent signing WR <nobr><span class="player-card-tooltip"><span>James Shaw</span></span></nobr></td>
 					</tr>
-					<tr class="loop-even">
+					<tr class="loop-even first-out">
 						<td>02/07/2013</td>
 						<td>Free agent signing DT <nobr><span class="player-card-tooltip"><span>Colin Cole</span></span></nobr></td>
 					</tr>
@@ -481,21 +480,6 @@
 			swipe: true
 		});
 	});
-</script>
-<script>
-    var delay = (function(){var timer = 0;return function(callback, ms){clearTimeout (timer);timer = setTimeout(callback, ms);};})();
-    var delay2 = (function(){var timer2 = 0;return function(callback, ms){clearTimeout (timer2);timer2 = setTimeout(callback, ms);};})();
-    $(document).ready(function() {
-        $(window).resize(function() {
-            delay(function(){
-                jHeightMaster($('.orbit-wrapper'),$('#top-videos ul'),'hidden');
-            }, 125);
-            delay2(function(){
-                jHeightMaster($('.footer-img'),$('.transactions tbody'),'hidden');
-            }, 125);
-        });
-        $(window).trigger('resize');
-    });
 </script>
 
 <span class="orbit-caption" id="htmlCaption1"><strong>Dapibus ac facilisis in, egestas eget quam.</strong> I can haz <a href="#">links</a>, <em>style</em> or anything that is valid markup :)</span>

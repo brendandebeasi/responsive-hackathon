@@ -72,6 +72,40 @@ body.active
 }
 
 }
+
+/*Hide top video items */
+@media only screen and (max-width: 1118px)
+{
+	#top-videos li.loop-last{display: none;}
+	
+}
+
+@media only screen and (max-width: 928px)
+{
+	#top-videos li.last-odd{display: none;}	
+}
+
+@media only screen and (max-width: 1110px)
+{
+	#top-videos li.last-odd{display: none;}	
+}
+
+@media only screen and (max-width: 1158px)
+{
+	.transactions tr.first-out{display: none;}
+}
+
+@media only screen and (max-width: 1048px)
+{
+	.transactions tr.second-out{display: none;}	
+
+}
+@media only screen and (max-width: 859px)
+{
+	.transactions tr.third-out{display: none;}	
+
+}
+
 .top-bar .horse
 {
  float: left;
