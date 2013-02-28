@@ -86,7 +86,7 @@ html, body {
 .clear {
     clear: both;
 }
-@media (max-width: 930px) {
+@media (max-width: 930px), only screen and (max-device-width: 480px)  {
     #container header {
         height: 115px;
     }
