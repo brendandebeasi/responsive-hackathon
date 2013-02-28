@@ -88,7 +88,7 @@ html, body {
 }
 @media (max-width: 930px) {
     #container header {
-        height: 130px;
+        height: 115px;
     }
     #container header .logo  {
         margin: auto;
