@@ -86,6 +86,12 @@ html, body {
 .clear {
     clear: both;
 }
+@media (min-width: 931px) {
+    .hideDesktop {
+        display: none !important;
+    }
+}
+
 @media (max-width: 930px), only screen and (max-device-width: 480px)  {
     #container header {
         height: 115px;
@@ -129,15 +135,5 @@ html, body {
     }
     .hideDesktop {
         display: block;
-    }
-}
-@media only screen and (max-device-width: 480px)  {
-    .hideDesktop {
-        display: block !important;
-    }
-}
-@media (min-width: 931px) {
-    .hideDesktop {
-        display: none !important;
     }
 }
