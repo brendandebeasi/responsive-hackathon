@@ -131,9 +131,9 @@ html, body {
         margin-bottom: 25px;
     }
     .hideMobile {
-        display: none;
+        display: none !important;
     }
     .hideDesktop {
-        display: block;
+        display: block !important;
     }
 }
