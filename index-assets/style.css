@@ -131,6 +131,11 @@ html, body {
         display: block;
     }
 }
+@media only screen and (max-device-width: 480px)  {
+    .hideDesktop {
+        display: block !important;
+    }
+}
 @media (min-width: 931px) {
     .hideDesktop {
         display: none !important;
