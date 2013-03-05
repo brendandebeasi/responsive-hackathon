@@ -41,7 +41,7 @@ html, body {
     font-weight: normal;
 }
 body {
-	background: url("../index-assets/nfl-labs-logo-trans.png") no-repeat scroll center 100px transparent;
+	background: url("../index-assets/nfl-labs-logo-trans-8.png") no-repeat scroll center 100px transparent;
 }
 #container .content td {
     padding: 30px;
@@ -117,7 +117,7 @@ body {
         font-size: 8pt;
     }
 body {
-	background: url("../index-assets/nfl-labs-logo-trans.png") no-repeat scroll center 240px transparent;
+	background: url("../index-assets/nfl-labs-logo-trans-8.png") no-repeat scroll center 240px transparent;
 		background-size: contain;
 	}
     tr {
