@@ -40,8 +40,8 @@ html, body {
     font-size: 16px;
     font-weight: normal;
 }
-#container .content {
-	background: url("../index-assets/nfl-labs-logo-trans.png") no-repeat scroll center center transparent;
+body {
+	background: url("../index-assets/nfl-labs-logo-trans.png") no-repeat scroll center 100px transparent;
 }
 #container .content td {
     padding: 30px;
@@ -63,7 +63,7 @@ html, body {
     text-decoration: none;
 }
 #container .content td a.button {
-    background: url("button.png");
+    background: url("button-large.png");
     color: #ffffff;
     display: block;
     font-size: 18px;
@@ -116,8 +116,8 @@ html, body {
     #container header .title h2 {
         font-size: 8pt;
     }
-	#container .content {
-		background: url("../index-assets/nfl-labs-logo-trans.png") no-repeat scroll top center transparent;
+body {
+	background: url("../index-assets/nfl-labs-logo-trans.png") no-repeat scroll center 240px transparent;
 		background-size: contain;
 	}
     tr {
@@ -141,4 +141,16 @@ html, body {
     .hideDesktop {
         display: block !important;
     }
+	#container .content td a.button {
+		background: url("button-large.png") bottom center;
+		color: #ffffff;
+		display: block;
+		font-size: 24px;
+		font-weight: 600;
+		line-height: 80px;
+		height: 80px;
+		margin: auto;
+		width: 246px;
+		text-decoration: none;
+	}
 }
